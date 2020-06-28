@@ -1,17 +1,251 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="zh-hk">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <title>Vanilla JavaScript App</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <title>Best Shine Group</title>
+  <meta name="description" content="泥がもつ天然由来の美容成分を引き出したクレイヘアケアブランド【DROAS（ドロアス）】の公式サイトです。沖縄産のマリンシルト、海洋深層水に加え、５種の国産海藻エキスを配合。髪と頭皮に潤いを与え、思わず触れたくなる指通りに導きます。">
+  <meta name="keywords" content="">
+  <meta name="copyright" content="BSG, Best Shine Group"/>
+  <meta name="author" content="BSG, Best Shine Group"/>
+
+  <meta property="og:url" content="https://">
+  <meta property="og:title" content="クレイヘアケアブランド【DROAS（ドロアス）】公式サイト">
+  <meta property="og:site_name" content="クレイヘアケアブランド【DROAS（ドロアス）】公式サイト">
+  <meta property="og:description" content="泥がもつ天然由来の美容成分を引き出したクレイヘアケアブランド【DROAS（ドロアス）】の公式サイトです。沖縄産のマリンシルト、海洋深層水に加え、５種の国産海藻エキスを配合。髪と頭皮に潤いを与え、思わず触れたくなる指通りに導きます。">
+  <meta property="og:image" content="https://droas.jp/ogp.jpg">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="zh_HK">
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+  <link rel="manifest" href="images/favicon/site.webmanifest">
+  <link rel="mask-icon" href="images/favicon/safari-pinned-tab.svg" color="#198048">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="theme-color" content="#ffffff">
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/animations.css">
+  
 </head>
 
 <body>
-  <main>
-    <h1>Vanilla JavaScript App</h1>
-  </main>
-</body>
+<!-- ▼ loader -->
+<div class="loader-wrapper">
+  <div class="bsgloader">
+    <div class="sh1"></div>
+    <div class="sh2"></div>
+    <h4 class="lt"><img src="images/logo_loading.png"></h4>
+  </div>
+  <div class="overlay-container">
+    <div class="overlay-inner">
+    </div>
+  </div>
+</div>
+<!-- ▲ loader -->
+<!-- ▼ logo -->
+<div id="pagelogo" class="for-artist"><a href="index.html"><img src="images/page_logo.png"></a></div>
+<!-- ▲ logo -->
+<!-- ▼ header -->
+<header class="header">
+  <div class="burger">
+    <div class="burger__patty"></div>
+    <div class="burger__patty"></div>
+    <div class="burger__patty"></div>
+  </div>
+  <nav class="menu">
+    <div class="menu__brand">
+      <div class="menu__photo"><img src="images/menu_left.jpg"></div>
+    </div>
+    <ul class="menu__list">
+      <li class="menu__item"><a href="about.html" class="menu__link">關於我們</a></li>
+      <li class="menu__item"><a href="news.html" class="menu__link">最新消息</a></li>
+      <li class="menu__item"><a href="artist.html" class="menu__link">代理藝人</a></li>
+      <li class="menu__item"><a href="management.html" class="menu__link">品牌及藝人管理</a></li>
+      <li class="menu__item"><a href="operation.html" class="menu__link">演唱會</a></li>
+      <li class="menu__item"><a href="production.html" class="menu__link">製作</a></li>
+      <li class="menu__item"><a href="collaborate.html" class="menu__link">合作夥伴</a></li>
+      <li class="menu__item"><a href="contact.html" class="menu__link">聯絡我們</a></li>
+      <li class="menu__item menu__icon">
+        <span><a href="https://facebook.com" target="_blank"><img src="images/icon_fb_white.png" class="icon-adjust"></a></span>
+        <span><a href="https://twitter.com" target="_blank"><img src="images/icon_ig_white.png" class="icon-adjust"></a></span>
+        <span><a href="https://twitter.com" target="_blank"><img src="images/icon_weibo_white.png" class="icon-adjust-twr"></a></span>
+        <span><a href="https://twitter.com" target="_blank"><img src="images/icon_twr_white.png" class="icon-adjust-twr"></a></span>
+      </li>
+    </ul>
+  </nav>
+</header>
+<!-- ▲ header -->
+<!-- ▼ video -->
+<div>
+	<!--<video poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/fashion.jpg" playsinline autoplay muted loop>-->
+  <video playsinline autoplay muted loop>
+		<!--<source src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/fashion.webm" type="video/webm">
+		<source src="https://thenewcode.com/assets/videos/fashion.mp4" type="video/mp4">-->
+    <source src="https://hodwn.com/media/2019/04/hodwn_web_2019_190410_v3_final-1.mp4" type="video/mp4">  
+  </video>
+  <svg class="arrows">
+    <path stroke-linecap="round" class="a1" d="M0 0 L20 22 L40 0"></path>
+  </svg>
+</div>
+<!-- ▲ video -->
+<!-- ▼ bignews -->
+<div id="bignews">
+  <div id="bignews-title" class="bg-green">
+    
+    <!--<h1><span class="tsuke">LATEST TOPICS</span>NEWS<span class="tsuke-ushiro">LATEST TOPICS</span></h1>-->
+    <span class="tsuke">LATEST TOPICS</span>
+    <h1>NEWS</h1>
+  </div>
+  <div id="bignews-image"><a href="newspage02.html"><img src="images/bignews_banner.jpg"></a></div>
+</div>  
+<!-- ▲ bignews -->
+<!-- ▼ item area -->
+<div id="itemarea">
+  <div id="items">
+      <!-- ▼ BG Animation -->
+      <ul class="circles">
+        <li class="squareyellow"></li>
+        <li class="squareyellow"></li>
+        <li></li>
+        <li class="squareyellow"></li>
+        <li></li>
+        <li class="squareyellow"></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li class="squareyellow"></li>
+      </ul>
+      <!-- ▲ BG Animation -->
+    	<div class="items-container">	
 
+    	  <article class="item fadein">
+      		<a href="newspage.html">
+      		  <div class="imgWrap">
+      			  <img src="images/news_20200625_supper.jpg">
+      		  </div>
+            <div class="item-title"><span class="item-day">2020.06.25</span>[ Supper Moment Live At The Coliseum ] 珍藏版已售罄</div>
+      		</a>
+    	  </article>
+
+        <article class="item fadein">
+          <a href="newspage02.html">
+            <div class="imgWrap">
+              <img src="images/news_20200624_supper.jpg">
+            </div>
+            <div class="item-title"><span class="item-day">2020.06.24</span>SUPPER MOMENT LIVE AT THE COLISEUM</div>
+          </a>
+        </article>
+
+        <article class="item fadein">
+          <a href="newspage03.html">
+            <div class="imgWrap">
+              <img src="images/news_20200618_janice.jpg">
+            </div>
+            <div class="item-title"><span class="item-day">2020.06.18 </span>閻奕格翻唱歌曲 [ 誰 ]</div>
+          </a>
+        </article>
+
+        <article class="item fadein">
+          <a href="newspage04.html">
+            <div class="imgWrap">
+              <img src="images/news_20200610_JAY.jpg">
+            </div>
+            <div class="item-title"><span class="item-day">2020.06.10</span>《英國保誠用心聆聽“周杰倫嘉年華世界巡迴演唱會2019 香港站”》最新公告</div>
+          </a>
+        </article>
+
+        <article class="item fadein">
+          <a href="newspage05.html">
+            <div class="imgWrap">
+              <img src="images/news_20200403_janice.jpg">
+            </div>
+            <div class="item-title"><span class="item-day">2020.04.03</span>閻奕格新歌 [ 分就分了 ] MV發佈</div>
+          </a>
+        </article>
+
+        <article class="item fadein">
+          <a href="newspage06.html">
+            <div class="imgWrap">
+              <img src="images/news_20200305_janice.jpg">
+            </div>
+            <div class="item-title"><span class="item-day">2020.03.05</span>閻奕格新歌 [ 愛上現在的我Right,now! ] (feat.高爾宣 OSN) MV發佈</div>
+          </a>
+        </article>
+
+        
+
+      </div>	
+   </div>
+</div>
+<!-- ▲ item area -->
+<!-- ▼ footer -->
+<div id="footer">
+  <div class="footer-info">  
+    <div class="footer-info-content">
+      <h5>BEST SHINE GROUP</h5>
+      <h5>寶輝娛樂有限公司</h5>
+        <ul>
+          <li>香港九龍長沙灣長義街6號/長順街5號長江工廠大廈2樓B座</li>
+          <li>TEL：( 852 ) 2116 4119</li>
+          <li>MAIL：info@bestshinegroup.com</li>
+        </ul>
+        <p class="footcon">
+          <span class="for-icon"><a href="https://facebook.com" target="_blank"><img src="images/icon_fb_white.png" class="icon-adjust"></a></span>
+          <span class="for-icon"><a href="https://twitter.com" target="_blank"><img src="images/icon_ig_white.png" class="icon-adjust"></a></span>
+          <span class="for-icon"><a href="https://twitter.com" target="_blank"><img src="images/icon_weibo_white.png" class="icon-adjust-twr"></a></span>
+          <span class="for-icon"><a href="https://twitter.com" target="_blank"><img src="images/icon_twr_white.png" class="icon-adjust-twr"></a></span>
+        </p>   
+    </div>
+    <div class="footer-newletter">  
+      <div class="par">
+        <p>
+          <span class="letter-title">Subscribe to our newsletter</span>
+        </p>
+        <div class="newsletter">
+          <form class="email-form" action="" method="POST">
+            <input class="email-form__input" id="email-input" type="email" placeholder="email@example.com">
+            <input id="subscribe-button" class="email-form__button" type="submit" value="SEND">
+          </form>
+        </div>
+        <div id="hint"></div>
+      </div>  
+    </div>
+  </div>
+  <div class="copyright-info">
+    <ul>
+      <li><a href="about.html">關於我們</a></li>
+      <li><a href="news.html">最新消息</a></li>
+      <li><a href="artist.html">代理藝人</a></li>
+      <li><a href="management.html">品牌及藝人管理</a></li>
+      <li><a href="operation.html">演唱會</a></li>
+      <li><a href="production.html">製作</a></li>
+      <li><a href="collaborate.html">合作夥伴</a></li>
+      <li><a href="contact.html">聯絡我們</a></li>
+    </ul> 
+    <div class="copyright"><p>&copy; 2020 BSG All rights reserved.</p></div>
+  </div>
+</div>
+<!-- ▲ footer -->
+<!-- ▼ gotop -->
+  <div id="gotop" class="backToTop">
+    <div class="circle">
+      <img src="images/backtotop.png">
+          <?xml version="1.0" encoding="utf-8"?>
+          <svg id="lettop" data-name="top" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 122 122"><polygon points="61 11.75 3.55 111.25 118.45 111.25 61 11.75"/></svg>
+    </div>
+  </div>
+<!-- ▲ gotop  -->
+
+<!-- JS -->
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/scrollreveal.min.js"></script>
+  <script src="js/script.js"></script>
+
+
+</body>
 </html>
